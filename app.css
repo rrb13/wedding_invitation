@@ -1,0 +1,179 @@
+body, html{
+    background-color: white;
+    font-family: "Gilda Display", sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.bg-overlay{
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(imgs/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #FFFFFF;
+    height: 100%;
+    padding-top: 50px;
+}
+
+/* .baris1{
+    background-color: red;
+}
+.baris2{
+    background-color: blue;
+}
+.baris3{
+    background-color: green;
+} */
+/* 
+h5{
+    font-size: 2rem;
+    font-weight: 400;
+} */
+
+/* h1{
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: 1em; 
+} */
+
+#logo{
+   height: auto;
+   
+}
+.img{
+    max-width: 100%;
+    height: auto;
+}
+.img1{
+    height: 100px;
+    width: auto;
+}
+
+.logoContainer{
+    height: 200px;
+    width: 200px;
+    margin: 1px;
+}
+
+.groom_bride{
+    background-color: #F0E6E2;
+}
+
+/* .groom_bride h1{
+    font-size: 5rem;
+    font-weight: bold;
+    color: #C9A498;
+} */
+/* 
+h2{
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin: 10px;
+    color: #444444;
+} */
+
+#love{
+    color:#D29180;
+}
+/* 
+h3{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #C9A498;
+    margin: 10px;
+}
+h4{
+    font-size: 1.25rem;
+} */
+.p{
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 10px;
+    color: #444444;
+}
+.button{
+    background-color: #C9A498 ;
+    color: white;
+    font-size: 1.5rem;
+}
+.bold{
+    font-weight: bold;
+}
+
+.bg-over{
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(imgs/background-schedule.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #FFFFFF;
+    /* height: 600px; */
+}
+
+#schedule{
+    background-color: #F0E6E2;
+}
+#streaming{
+    background-color: white;
+}
+
+#gallery img{
+    width: 100%;
+}
+
+.Gallery{
+    font-size: 3rem;
+    color: #C9A498;
+}
+
+.card{
+    border-radius: 100%;
+}
+
+.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; } .video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.blockquote{
+    font-size: 1.5rem;
+}
+
+.lineHeight{
+    line-height: 3;
+}
+/* 
+.gallery h1{
+    font-size: 5rem;
+    font-weight: bold;
+    color: #C9A498;
+} */
+
+.icon{
+    max-width: 100%;
+    height: auto;
+}
+.ee{
+    position: relative;
+}
+
+.weddingFrom{
+position: absolute;
+  text-align: center;
+  color: white;
+}
+/* .block1{
+    background-color: red;
+} */
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bg-overlay{
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(imgs/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #FFFFFF;
+    height: 100%;
+    padding-top: 50px;
+}
