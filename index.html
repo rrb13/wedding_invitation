@@ -13,6 +13,8 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- bootstrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="app.css">
@@ -26,7 +28,7 @@
     <div class="h-25 row align-items-center text-center gx-0 baris1">
       <h5>The Wedding of</h5>
       <H1 class="display-1">Roy & Nathasia</H1>
-      <h5>Saturday, July 16nd 2022</h5>
+      <h5>Saturday, July 16th 2022</h5>
     </div>
     <div class="h-50 d-flex align-items-center justify-content-center baris2">
       <img class="h-75" src="imgs/LOGO.png" alt="">
@@ -37,23 +39,26 @@
         <h5>Our Beloved friends</h5>
       </div>
       <div class="w-50">
-        <button type="button" class="button btn btn-outline-secondary rounded-pill p-2">&#9993; Scroll Invitation</button>
+        <a class="button btn btn-outline-secondary rounded-pill p-2" href="#myDIV" role="button" onclick="myFunction(); play();">&#9993; Scroll Invitation</a>
       </div>
     </div>
+      <button id="play-pause-button" type="button" class="btn btn-secondary">
+        <i class="bi bi-volume-mute-fill"></i>
+      </button>
   </section>
-  <!-- Body Section -->
+  <section id="myDIV" style="display: none;">
+    <!-- Body Section -->
   <section class="container-fluid px-0">
     <div class="row align-items-center content mx-2">
       <div class="col-md-6 text-center order-2 order-md-1">
         <div class="row justify-content-center">
           <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-            <h1 class="display-1">Tie The Knot</h1>
+            <h1 id="pink" class="display-1">Tie The Knot</h1>
             <blockquote class="blockquote">
               <p >
-                "Place me like a seal over your heart, like a seal on your arm; for love is as strong as death, its
-                jealousy unyielding as the grave. It burns like blazing fire, like a mighty flame."
+                "So they are no longer two, but one flesh. Therefore what God has joined together, let no one seperate."
               </p>
-              <footer class="blockquote-footer">Song of Songs 8 : 6</footer>
+              <footer class="blockquote-footer">Matthew 19 : 6</footer>
             </blockquote>
           </div>
         </div>
@@ -68,7 +73,7 @@
   <section class="container-fluid px-0 groom_bride">
     <div class="container-fluid row align-items-center content mx-3 pt-5 pb-5">
       <div class="row text-center justify-content-center my-3">
-        <h1 class="display-1">Groom and Bride</h1>
+        <h1 id="pink" class="display-1">Groom and Bride</h1>
         <div class="container-fluid ">
           <img class="m-1 img-fluid" src="imgs/heart.png" alt="">
         </div>
@@ -79,12 +84,12 @@
         <div class="col-md-6 text-center order-2 order-md-1">
           <div class="row justify-content-center">
             <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-              <h3 class="name">Roy Budiman</h3>
+              <h3 id="pink" class="name">Roy Budiman</h3>
               <div class="container-75 ">
                 <img class="m-1 img-fluid" src="imgs/ring.png" alt="">
               </div>
               <h5 class="bold">The Son of:</h4>
-              <h5>Mr.Robertus Budiman</h4>
+              <h5>Mr. Robertus Budiman</h4>
               <h5>&</h4>
               <h5>Mrs. Maria Lely Christina</h4>
             </div>
@@ -102,12 +107,12 @@
         <div class="col-md-6 text-center">
           <div class="row justify-content-center">
             <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-              <h3 class="name">Nathasia</h3>
+              <h3 id="pink" class="name">Nathasia</h3>
               <div class="container-75 ">
                 <img class="m-1 img-fluid" src="imgs/ring.png" alt="">
               </div>
               <h5 class="bold">The Daughter of:</h4>
-              <h5>Mr.Agus Winarto</h4>
+              <h5>Mr. Agus Winarto</h4>
               <h5>&</h4>
               <h5>Mrs. Hilda Halim</h4>
             </div>
@@ -123,7 +128,7 @@
       <div class="w-100 rounded-top bg-over">
         <div class="text-center align-items-center justify-content-center py-5 ">
           <H1 class="display-1 lineHeight">Save The Date</H1>
-          <h5 class="m-1 lineHeight">Saturday, July 16nd 2022</h5>
+          <h5 class="m-1 lineHeight">Saturday, July 16th 2022</h5>
           <div class="container-fluid ">
             <img class="m-1 img-fluid" src="imgs/diamond.png" alt="">
           </div>
@@ -136,21 +141,21 @@
           </div>
           <div class="d-block align-items-center justify-content-center my-5 row gy-3">
             <div class="justify-content-center">
-              <button type="button" class="button btn btn-outline-secondary rounded-pill p-2">&#9993; Scroll Invitation</button>
+              <a class="button btn btn-outline-secondary rounded-pill p-3" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MGJoNWtic3Fic2NsMnUxdDdxbnE4OGx0aWEgYXJzLnJveWJ1ZGltYW5AbQ&tmsrc=ars.roybudiman%40gmail.com" role="button">&#128197; Add to Calendar</a>
             </div>
             <div>
-              <button type="button" class="button btn btn-outline-secondary rounded-pill p-2">&#9993; Scroll Invitation</button>
+              <a class="button btn btn-outline-secondary rounded-pill p-3" href="#wishes" role="button">&#9829; Wishes for us</a>
             </div>
           </div>
         </div>
       </div>
       <div class="container-fluid pl-5 pr-5 pb-5">
         <div id="streaming" class="row text-center align-items-center justify-content-center p-5">
-          <H1 class="display-1">Live Streaming</H1>
+          <H1 id="pink" class="display-1">Live Streaming</H1>
           <h5 class="m-1">Considering the Covid-19 pandemic, we are unable to invite all of you in person. We’re still utterly in love, but it’s important to us that everyone stays safe, so alongside with the real event we also plan to publish our wedding virtually via Live Streaming below:</h5>
           <div class="w-50 m-2">
             <div>
-              <button type="button" class="button btn btn-outline-secondary rounded-pill p-3">&#9993; Live Streaming</button>
+              <a class="button btn btn-outline-secondary rounded-pill p-3" href="https://www.youtube.com/watch?v=aDzUqF1Rr8I" role="button">&#9993; Live Streaming</a>
             </div>
           </div>
         </div>
@@ -161,7 +166,7 @@
   <section id="gallery">
     <div class="container-fluid p-3 gallery">
       <div class="text-center">
-        <h1 class="display-1">Our Gallery</h1>
+        <h1 id="pink" class="display-1">Our Gallery</h1>
       </div>
       <div class="container-fluid pt-2">
         <div class="row d-flex justify-content-between align-self-start">
@@ -190,7 +195,7 @@
     </div>
   </section>
   <!-- wish section
-  <section>
+  <section id="wishes">
     <div class="container-fluid px-3 text-center">
       <h1 class="display-1 lineHeight">For Us</h1>
       <h5 class="lineHeight">Love is a decision we make and not just the emootion that we feel.</h5>
@@ -233,16 +238,83 @@
     </div>
   </section> -->
   <!-- protocol section -->
-  <section class="row align-items-end py-5 bg-overlay">
-    <div class="text-center gx-0 baris1">
-      <h5>See You on Our Big Day</h5>
-      <H1 class="display-1">Roy & Nathasia</H1>
-    </div>
-    
+    <section class="row align-items-end py-5 bg-overlay">
+      <div class="text-center gx-0 baris1">
+        <h5>See You on Our Big Day</h5>
+        <H1 class="display-1">Roy & Nathasia</H1>
+      </div>
+      
+    </section>
   </section>
+
+
+
+
+
+  
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+      
+    }
+  </script>
+  <script>
+    function play() {
+      var audio = document.getElementById("myAudio");
+      audio.play();
+    }
+  </script>
+  <script>
+    var x = document.getElementById("myAudio"); 
+    
+    function playAudio() { 
+      x.play(); 
+    } 
+    
+    function pauseAudio() { 
+      x.pause(); 
+    } 
+    
+    
+    </script>
+  <audio loop="" id="myAudio" src="https://s9d5.tx11.idrivee2-3.com/mp3pw/Bapa%20Engkau%20Sungguh%20Baik.mp3"></audio>
+  <script>
+    $('#menu-sound').click(function() {
+      $(this).find('i').toggleClass('bi bi-volume-up-fill').toggleClass('bi bi-volume-mute-fill');
+    });
+    // $('#play-pause-button').on("click",function(){
+    //   if($(this).find('i').hasClass('bi bi-volume-up-fill'))
+    //   {
+    //     $(this).find('i').removeClass('bi bi-volume-up-fill');
+    //     $(this).find('i').addClass('bi bi-volume-mute-fill');
+    //     playAudio()
+    //   }
+    //   else
+    //   {
+    //     $(this).find('i').removeClass('bi bi-volume-mute-fill');
+    //     $(this).find('i').addClass('bi bi-volume-up-fill');
+    //     pauseAudio()
+    //   }
+    // });
+
+    //     $('#open-invitation').on("click",function(){
+
+    //     $('#play-pause-button').removeClass('fa-volume-down');
+    //     $('#play-pause-button').addClass('fa-volume-mute');
+    //     playAudio()
+      
+    // });
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
+    
 </body>
 
 </html>

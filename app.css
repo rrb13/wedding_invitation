@@ -137,12 +137,12 @@ h4{
 .lineHeight{
     line-height: 3;
 }
-/* 
-.gallery h1{
-    font-size: 5rem;
+
+
+#pink {
     font-weight: bold;
-    color: #C9A498;
-} */
+    color: #C9A498; 
+}
 
 .icon{
     max-width: 100%;
@@ -174,7 +174,7 @@ position: absolute;
     background-size: cover;
     background-position: center center;
     color: #FFFFFF;
-    height: 100%;
+    min-height: 100vh;
     padding-top: 50px;
 }
 
