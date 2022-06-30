@@ -177,3 +177,7 @@ position: absolute;
     height: 100%;
     padding-top: 50px;
 }
+
+.button{
+    font-size: 1.2rem;
+}
